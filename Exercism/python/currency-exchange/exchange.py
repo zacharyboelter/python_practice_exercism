@@ -35,6 +35,7 @@ def get_value_of_bills(denomination, number_of_bills):
 
 
 def get_number_of_bills(amount, denomination):
+    return int(amount / denomination)
     """
 
     :param amount: float - the total starting value.
