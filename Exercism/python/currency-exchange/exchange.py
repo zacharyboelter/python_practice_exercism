@@ -11,6 +11,7 @@ def exchange_money(budget, exchange_rate):
 
 
 def get_change(budget, exchanging_value):
+    return budget - exchanging_value
     """
 
     :param budget: float - amount of money you own.
