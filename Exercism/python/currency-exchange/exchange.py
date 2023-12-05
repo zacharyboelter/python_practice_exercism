@@ -47,6 +47,7 @@ def get_number_of_bills(amount, denomination):
 
 
 def get_leftover_of_bills(amount, denomination):
+    return amount % denomination
     """
 
     :param amount: float - the total starting value.
