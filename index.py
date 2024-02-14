@@ -20,3 +20,5 @@ f = int(input())
 t = int(input())
 
 print(list(primeGenerator(f, t)))
+
+
